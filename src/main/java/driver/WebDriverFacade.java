@@ -12,56 +12,6 @@ import java.util.concurrent.TimeUnit;
 
 public class WebDriverFacade {
 
-    /*private WebDriver driver;
-
-    public WebDriverFacade() {
-        manager = WebDriverManager.chromedriver();
-        manager.setup();
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-    }
-
-    public void loadPage(String url) {
-        driver.get(url);
-    }
-
-    public void setElementText(ILocatable locatable, String value) {
-        waitForElement(locatable.getLocator()).clear();
-        waitForElement(locatable.getLocator()).sendKeys(value);
-    }
-
-    public void clickElement(By locator) {
-        waitForElement(locator).click();
-    }
-
-    public WebElement waitForElement(By locator) {
-        try {
-            return new WebDriverWait(driver, 45)
-                    .until(ExpectedConditions.visibilityOfElementLocated(locator));
-        } catch (Exception e) {
-            e.printStackTrace();
-            throw new RuntimeException(e);
-        }
-    }
-
-    public void quitDriver() {
-        driver.quit();
-    }
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
     private By locator;
     private WebDriver driver = null;
     private WebDriverManager manager = null;

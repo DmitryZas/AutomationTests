@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: AuthTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.842 s <<< FAILURE! - in AuthTest
+authWindow(AuthTest)  Time elapsed: 11.318 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Я [уже зарегистрирован]> but was:<Я [новый пользователь]>
+	at AuthTest.authWindow(AuthTest.java:29)
+
